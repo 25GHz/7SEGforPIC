@@ -1,0 +1,69 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"11 C:\Documents and Settings\Gustavo\Meus documentos\7seglib\sample.X\7seglibmain.h
+[v _print_sevenseg print_sevenseg `(v  1 e 0 0 ]
+"62 C:\Arquivos de programas\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Arquivos de programas\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 C:\Arquivos de programas\Microchip\xc8\v1.34\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"6 C:\Arquivos de programas\Microchip\xc8\v1.34\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"25 C:\Documents and Settings\Gustavo\Meus documentos\7seglib\sample.X\sample.c
+[v _main main `(v  1 e 0 0 ]
+"13 C:\Documents and Settings\Gustavo\Meus documentos\7seglib\sample.X\7seglib.h
+[v _SETport SETport `[1]i  1 e 2 0 ]
+[v _fdef fdef `i  1 e 2 0 ]
+"17
+[v _SETscale SETscale `[9]ul  1 e 36 0 ]
+"24
+[v _numlib numlib `[20]ul  1 e 80 0 ]
+"160 C:\Arquivos de programas\Microchip\xc8\v1.34\include\pic16f877a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"209
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"270
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"331
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"392
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+"1288
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1337
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1398
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1459
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"25 C:\Documents and Settings\Gustavo\Meus documentos\7seglib\sample.X\sample.c
+[v _main main `(v  1 e 0 0 ]
+{
+"34
+[v main@i i `i  1 a 2 17 ]
+"30
+[v main@c c `i  1 a 2 15 ]
+"45
+} 0
+"11 C:\Documents and Settings\Gustavo\Meus documentos\7seglib\sample.X\7seglibmain.h
+[v _print_sevenseg print_sevenseg `(v  1 e 0 0 ]
+{
+[v print_sevenseg@number number `i  1 p 2 0 ]
+[v print_sevenseg@compnumb compnumb `f  1 p 3 2 ]
+[v print_sevenseg@port1 port1 `*.24uc  1 p 1 5 ]
+[v print_sevenseg@port2 port2 `*.24uc  1 p 1 6 ]
+"527
+} 0
+"4 C:\Arquivos de programas\Microchip\xc8\v1.34\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+{
+[v ___ftge@ff1 ff1 `f  1 p 3 0 ]
+[v ___ftge@ff2 ff2 `f  1 p 3 3 ]
+"13
+} 0
